@@ -88,3 +88,18 @@ li.nav-item.dropdown a:link{
     left: 20%;
 }
 
+.my-yellow-button{
+    background: yellow;
+    color: blue;
+    padding: 2vh 2vw;
+    font-weight: 800;
+}
+
+.section-undergrad{
+    
+    background-image: url("/images/background-section-undergrad.jpg");
+    padding: 3vh 3vw;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
