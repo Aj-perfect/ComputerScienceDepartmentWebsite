@@ -26,7 +26,7 @@ hr.header-divider {
     font-size: 1rem;
 }
 .sub-header{
-    background-color: rgb(2, 29, 88);
+    background-color: rgba(2, 29, 88, 0.9);
     height: 5.3rem;
     
 }
@@ -81,6 +81,11 @@ li.nav-item.dropdown a:link{
     opacity: 0.85;
 }
 
+.carousel-container{
+    max-width: 100%;
+    height: 20rem;
+}
+
 .registration{
     height: 10vh;
     background: yellow;
@@ -119,4 +124,22 @@ li.nav-item.dropdown a:link{
     color: white;
     font-weight: bolder;
     font-size: 1.2rem;
+}
+
+.footer{
+    background: rgba(54, 56, 170, 0.85);
+    color: whitesmoke;
+    padding: 1rem;
+}
+
+.footer a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.footer-divider{
+    border: 2px solid yellow;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 0px;
 }
